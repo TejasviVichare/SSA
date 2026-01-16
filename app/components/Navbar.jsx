@@ -5,12 +5,12 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed  top-0 left-0 w-full z-50 px-[5vw] py-[1vw]">
+    <header className="fixed bg-white  top-0 left-0 w-full z-50 px-[5vw] py-[1vw]">
       <nav className="flex justify-between items-center text-[#97B320]">
         <div className="text-[4vw] md:text-[1.5vw] font-bold">SSA</div>
 
         {/* Desktop Navbar */}
-        <ul className="hidden md:flex gap-[2vw] text-[1.1vw]">
+        <ul className="hidden md:flex gap-[2vw] text-[1.1vw] ">
           <li>About Us</li>
           <li>Matches</li>
           <li>Programs</li>
@@ -31,7 +31,7 @@ const Navbar = () => {
 
       {open && (
         <div className="md:hidden">
-          <ul className="flex flex-col text-[3vw] gap-[3vw] mt-[2vw]">
+          <ul className="flex flex-col text-[3vw] gap-[3vw] mt-[6vw] text-[#97B320]">
             <li>About Us</li>
             <li>Matches</li>
             <li>Programs</li>
