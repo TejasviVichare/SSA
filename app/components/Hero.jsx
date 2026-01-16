@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="relative h-[100vh] w-full overflow-hidden pt-[8vw] md:pt-[6vw]">
+    <section className="relative h-[100vh] w-full overflow-hidden pt-[8vw]    text-center">
 
       {/* Background Video */}
       <video
@@ -16,20 +16,23 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/45 z-10" />
 
       {/* Content */}
-      <div className="relative z-20 flex items-center h-full px-[6vw]">
-        <div className="text-white max-w-[70vw]">
+      <div className="relative z-20 flex items-center h-full px-[6vw] w-full text-center">
+        <div className="text-white w-full text-center">
 
-          <p className="text-[2vw] uppercase tracking-widest mb-[1vw]">
+          <p className="text-[1vw] uppercase tracking-[0.7vw] mb-[1vw]">
             SSA Hunter Valley
           </p>
 
-          <h1 className="text-[7vw] md:text-[4vw] leading-[1.1] font-bold">
+          <p className="text-[7vw] md:text-[3vw] leading-[1.1] tracking-[0.3vw] font-normal uppercase">
             Grow Your Game With The
-            <span className="block text-green-400">
+          
+          </p>
+            <p className="block text-[7vw] md:text-[4vw] leading-loose  text-white uppercase font-bold">
               Professionals
-            </span>
-          </h1>
-
+            </p>
+            <div className="flex justify-center ">
+              <hr className="w-96" />
+            </div>
           <p className="mt-[2vw] text-[2.2vw] md:text-[1.2vw]">
             Adopt · Nurture · Deliver
           </p>

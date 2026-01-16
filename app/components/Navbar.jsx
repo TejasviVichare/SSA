@@ -5,8 +5,8 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed  top-0 left-0 w-full z-50 px-[5vw] py-[2vw]">
-      <nav className="flex justify-between items-center text-black">
+    <header className="fixed  top-0 left-0 w-full z-50 px-[5vw] py-[1vw]">
+      <nav className="flex justify-between items-center text-[#97B320]">
         <div className="text-[4vw] md:text-[1.5vw] font-bold">SSA</div>
 
         {/* Desktop Navbar */}
