@@ -5,6 +5,8 @@ import About from "./components/About";
 import KeyFeatures from "./components/KeyFeatures";
 import Programs from "./components/Programs";
 import Professionals from "./components/Professionals";
+import Facilities from "./components/Facilities";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <KeyFeatures />
       <Programs />
       <Professionals />
+      <Facilities />
+      {/* <Footer /> */}
     </>
   );
 }
