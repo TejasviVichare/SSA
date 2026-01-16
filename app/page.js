@@ -2,6 +2,9 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import KeyFeatures from "./components/KeyFeatures";
+import Programs from "./components/Programs";
+import Professionals from "./components/Professionals";
 
 export default function Home() {
   return (
@@ -11,6 +14,9 @@ export default function Home() {
         <Hero />
       </main>
       <About />
+      <KeyFeatures />
+      <Programs />
+      <Professionals />
     </>
   );
 }
