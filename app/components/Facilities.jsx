@@ -68,11 +68,15 @@ export default function Facilities() {
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="bg-black text-white p-[4vw]">
           <h3 className="text-[2.5vw]">Our Coaches</h3>
-          <p className="text-[1.2vw] opacity-70">Lorem Ipsum has been the industry's standard dummy text.</p>
+          <p className="text-[1.2vw] opacity-70 leading-loose">Lorem Ipsum has been the industry's standard dummy text.</p>
+         <p className="text-[1.2vw] opacity-70 leading-loose">Read More &#8594;</p>
+
         </div>
         <div className="bg-[#a6c437] text-white p-[4vw]">
           <h3 className="text-[2.5vw]">Events</h3>
-          <p className="text-[1.2vw] opacity-70">Lorem Ipsum has been the industry's standard dummy text.</p>
+          <p className="text-[1.2vw] opacity-70 leading-loose">Lorem Ipsum has been the industry's standard dummy text.</p>
+                   <p className="text-[1.2vw] opacity-70 leading-loose">Read More &#8594;</p>
+
         </div>
       </div>
     </section>

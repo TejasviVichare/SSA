@@ -20,7 +20,7 @@ export default function Home() {
       <Programs />
       <Professionals />
       <Facilities />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
