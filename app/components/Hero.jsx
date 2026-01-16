@@ -37,7 +37,7 @@ const Hero = () => {
             Adopt · Nurture · Deliver
           </p>
 
-          <button className="mt-[3vw] bg-green-500 px-[4vw] py-[1.5vw] rounded-full text-[1.2vw] hover:scale-105 transition">
+          <button className="mt-[3vw] border px-[4vw] py-[1.5vw] rounded-full text-[1.2vw] hover:scale-105 transition">
             Register Now
           </button>
 
