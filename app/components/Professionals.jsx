@@ -18,7 +18,7 @@ export default function Professionals() {
         <div className="grid grid-cols-1 md:grid-cols-2">
 
           {/* LEFT BOX */}
-          <div className="bg-green-700 text-white px-[3vw] py-[3vw] rounded-t-[1vw] md:rounded-l-[1vw] md:rounded-tr-none flex flex-col justify-center">
+          <div className="bg-gradient-to-r from-[#0f3d2e] to-[#9bbd3a] text-white px-[3vw] py-[3vw] rounded-t-[1vw] md:rounded-l-[1vw] md:rounded-tr-none flex flex-col justify-center">
             
             <p className="text-[1vw] uppercase tracking-wider">Launching</p>
 
@@ -42,9 +42,9 @@ export default function Professionals() {
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className="relative w-full h-[24vw] rounded-b-[1vw] md:rounded-r-[1vw] md:rounded-bl-none overflow-hidden">
+          <div className="relative w-full h-full rounded-b-[1vw] md:rounded-r-[1vw] md:rounded-bl-none overflow-hidden">
             <Image
-              src="/images/fallbackimg.png"
+              src="/images/ground.jpg"
               alt=""
               fill
               className="object-cover"
@@ -65,7 +65,7 @@ export default function Professionals() {
             </p>
           </div>
 
-          <button className="bg-lime-500 text-white px-[1.6vw] py-[0.7vw] rounded-[0.5vw] text-[1vw]">
+          <button className="bg-[#9bbd3a] text-white px-[1.6vw] py-[0.7vw] rounded-3xl text-[1vw]">
             View All
           </button>
         </div>
@@ -78,7 +78,7 @@ export default function Professionals() {
             <div key={i}>
               <div className="relative w-full h-[22vw] rounded-[1vw] overflow-hidden">
                 <Image
-                  src="/images/fallbackimg.png"
+                  src="/images/professionals2.webp"
                   alt=""
                   fill
                   className="object-cover"
