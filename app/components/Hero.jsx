@@ -9,6 +9,7 @@ const Hero = () => {
         muted
         loop
         playsInline
+        poster="/images/fallbackimg.png"
       />
 
       {/* Dark Overlay */}
