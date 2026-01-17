@@ -51,7 +51,7 @@ export default function KeyFeatures() {
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
         </p>
 
-        <div className="mt-6 flex flex-row gap-4">
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
         
           <div className="relative w-full h-75 rounded-lg overflow-hidden">
             <Image src="/images/games5.jpg" alt="" fill className="object-cover w-60" />
@@ -59,7 +59,7 @@ export default function KeyFeatures() {
 
      
           <div className="relative w-full h-75 rounded-lg overflow-hidden">
-            <Image src="/images/games6.jpg" alt="" fill className="object-cover w-80" />
+            <Image src="/images/games6.jpg" alt="" fill className="object-cover" />
           </div>
         </div>
       </section>

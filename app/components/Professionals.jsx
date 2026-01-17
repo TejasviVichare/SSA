@@ -89,7 +89,7 @@ export default function Professionals() {
         </div>
 
         {/* PROFILES GRID */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-[2vw] mt-[4vw] md:px-0 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-[3vw] md:gap-[2vw] mt-[4vw] md:px-0 px-20 ">
           {professionals.map((person, index) => (
             <div key={index}>
               <div className="relative md:w-full w-48 h-[22vw] rounded-[1vw] overflow-hidden">
