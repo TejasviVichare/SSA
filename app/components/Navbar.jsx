@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -11,14 +12,14 @@ const Navbar = () => {
 
         {/* Desktop Navbar */}
         <ul className="hidden md:flex gap-[2vw] text-[1.1vw] ">
-          <li>About Us</li>
-          <li>Matches</li>
-          <li>Programs</li>
-          <li>Coaches</li>
-          <li>Amenities</li>
-          <li>Events</li>
-          <li>News</li>
-          <li>Blogs</li>
+          <Link href="#">About Us</Link>
+          <Link href="#">Matches</Link>
+          <Link href="#">Programs</Link>
+          <Link href="#">Coaches</Link>
+          <Link href="#">Amenities</Link>
+          <Link href="#">Events</Link>
+          <Link href="#">News</Link>
+         <Link href="#">Blogs</Link>
         </ul>
 
         {/* Humburger Menu */}

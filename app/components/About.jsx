@@ -4,8 +4,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="relative w-full bg-white text-black py-20">
-      <div className="absolute top-0 left-0 w-75 h-75 bg-lime-200/30 -z-10 "></div>
+    <section className="relative w-full bg-white text-black md:py-20 pt-10">
+   
 
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="text-center max-w-3xl mx-auto mb-[5.5vw]">
