@@ -7,6 +7,7 @@ import Programs from "./components/Programs";
 import Professionals from "./components/Professionals";
 import Facilities from "./components/Facilities";
 import Footer from "./components/Footer";
+import Events from "./components/Events";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Programs />
       <Professionals />
       <Facilities />
+      <Events />
       <Footer />
     </>
   );
