@@ -17,7 +17,7 @@ const Programs = () => {
       <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Card 1 */}
         <div className="relative rounded-lg overflow-hidden group">
-          <div className="relative w-full aspect-[3/4]">
+          <div className="relative w-full aspect-3/4">
             <Image
               src="/images/games7.jpg"
               alt="Academy"
@@ -26,10 +26,8 @@ const Programs = () => {
             />
           </div>
 
-          {/* Overlay */}
           <div className="absolute inset-0 bg-black/40" />
 
-          {/* Text */}
           <div className="absolute bottom-4 left-4 right-4 text-white">
             <h4 className="text-xl font-semibold">Academy</h4>
             <p className="text-sm opacity-90">Learn and train with us</p>
@@ -38,7 +36,7 @@ const Programs = () => {
 
         {/* Card 2 */}
         <div className="relative rounded-lg overflow-hidden group">
-          <div className="relative w-full aspect-[3/4]">
+          <div className="relative w-full aspect-3/4">
             <Image
               src="/images/games9.jpg"
               alt="Camps"
@@ -57,7 +55,7 @@ const Programs = () => {
 
         {/* Card 3 */}
         <div className="relative rounded-lg overflow-hidden group">
-          <div className="relative w-full aspect-[3/4]">
+          <div className="relative w-full aspect-3/4">
             <Image
               src="/images/games8.jpg"
               alt="Performance"

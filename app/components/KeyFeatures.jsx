@@ -4,7 +4,7 @@ export default function KeyFeatures() {
   return (
     <div className="w-full font-montserrat">
 
-      {/* SECTION A — KEY FEATURES */}
+      {/* KEY FEATURES */}
       <section className="relative py-16 px-6 md:px-16 lg:px-24">
         <div className="flex justify-between items-start">
           <h2 className="text-2xl font-semibold">
@@ -36,7 +36,7 @@ export default function KeyFeatures() {
         </div>
       </section>
 
-      {/* SECTION B — A GLIMPSE OF EXCELLENCE */}
+      {/* GLIMPSE */}
       <section className="py-16 px-6 md:px-16 lg:px-24">
         <div className="flex justify-between items-start">
           <h2 className="text-2xl font-semibold">
@@ -52,12 +52,12 @@ export default function KeyFeatures() {
         </p>
 
         <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Left Image (Tall) */}
+        
           <div className="relative w-full h-75 rounded-lg overflow-hidden">
             <Image src="/images/games5.jpg" alt="" fill className="object-cover w-60" />
           </div>
 
-          {/* Right Image (Large Wide) */}
+     
           <div className="relative w-full h-75 rounded-lg overflow-hidden">
             <Image src="/images/games6.jpg" alt="" fill className="object-cover" />
           </div>

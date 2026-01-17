@@ -12,7 +12,7 @@ const Hero = () => {
         poster="/images/fallbackimg.png"
       />
 
-      {/* Dark Overlay */}
+     
       <div className="absolute inset-0 bg-black/45 z-10" />
 
       {/* Content */}
@@ -43,7 +43,7 @@ const Hero = () => {
             Register Now
           </button>
 
-          {/* Side Buttons */}
+         
           <div className="absolute right-0 bottom-4 space-y-2 flex flex-col items-end">
             <div className="flex items-center gap-2 ">
               <span className="text-[#97B320]">&lt;&lt;</span>
@@ -51,7 +51,6 @@ const Hero = () => {
               <div className="flex-1 border-b border-[#97B320]  w-16"></div>
             </div>
 
-            {/* Weather Box */}
             <div className="bg-[rgba(151,179,32,0.5)] bg-opacity-90 py-3 px-2">
               <div className="text-xs  opacity-80 py-1tracking-wide">
                 Hunter Valley
