@@ -75,7 +75,7 @@ export default function Professionals() {
       <section className="w-full  px-[4vw] py-[6vw]">
         <div className="flex justify-between items-start">
           <div>
-            <h2 className="md:text-[2vw]  font-semibold leading-[2.4vw] mb-[1vw]">
+            <h2 className="md:text-[2vw]  font-semibold leading-[2.4vw] md:mb-[1vw] mb-[2.5vw]">
               Meet our professionals 
             </h2>
             <p className="text-gray-600 text-[1vw] max-w-[35vw] mt-[0.7vw] leading-[1.4vw]">

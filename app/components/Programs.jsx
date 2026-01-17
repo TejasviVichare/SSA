@@ -57,7 +57,7 @@ const Programs = () => {
         <div className="relative rounded-lg overflow-hidden group">
           <div className="relative w-full aspect-3/4">
             <Image
-              src="/images/games8.jpg"
+              src="/images/games2.jpg"
               alt="Performance"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500"

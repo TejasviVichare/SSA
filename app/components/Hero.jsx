@@ -1,19 +1,19 @@
+"use client";
+import React from "react";
+import LazyVideo from "./LazyVideo"; 
+
 const Hero = () => {
   return (
     <section className="relative w-full h-[65vh] md:h-screen overflow-hidden pt-[14vw] md:pt-[8vw] text-center">
-      
-      {/* Background Video */}
-      <video
-        className="absolute inset-0 w-full h-full object-cover z-0"
+
+      {/* Background Video*/}
+      <LazyVideo
         src="/videos/hero.mp4"
-        autoPlay
-        muted
-        loop
-        playsInline
         poster="/images/fallbackimg.png"
+        className="absolute inset-0 w-full h-full object-cover z-0"
       />
 
-    
+     
       <div className="absolute inset-0 bg-black/45 z-10" />
 
       {/* Content */}
@@ -49,11 +49,13 @@ const Hero = () => {
           </button>
 
           {/* Small Box */}
-          <div className="absolute right-[3vw] bottom-[3vw] z-30 
-                          flex flex-col items-end gap-[1.5vw] md:gap-2
-                          scale-[0.8] md:scale-100 origin-bottom-right">
+          <div
+            className="absolute right-[3vw] bottom-[3vw] z-30 
+                       flex flex-col items-end gap-[1.5vw] md:gap-2
+                       scale-[0.8] md:scale-100 origin-bottom-right"
+          >
 
-         
+           
             <div className="flex items-center gap-[1vw] md:gap-2">
               <span className="text-[#97B320] text-[3vw] md:text-sm">&lt;&lt;</span>
               <span className="uppercase tracking-wide text-[2.5vw] md:text-xs">
@@ -75,14 +77,13 @@ const Hero = () => {
                 </div>
 
                 <div className="text-left opacity-75 text-[2.2vw] md:text-xs">
-                  <p className="uppercase font-bold tracking-wide">
-                    Weather
-                  </p>
+                  <p className="uppercase font-bold tracking-wide">Weather</p>
                   <p>Saturday 8pm</p>
                 </div>
               </div>
             </div>
 
+          
             <div className="flex items-center gap-[1vw] md:gap-2">
               <span className="text-[#97B320] text-[3vw] md:text-sm">&lt;&lt;</span>
               <span className="uppercase tracking-wide text-[2.5vw] md:text-xs">
@@ -91,7 +92,7 @@ const Hero = () => {
               <div className="border-b border-[#97B320] w-[10vw] md:w-16" />
             </div>
 
-          
+           
             <div className="flex items-center gap-[1vw] md:gap-2">
               <span className="text-[#97B320] text-[3vw] md:text-sm">&lt;&lt;</span>
               <span className="uppercase tracking-wide text-[2.5vw] md:text-xs">
@@ -100,7 +101,6 @@ const Hero = () => {
               <div className="border-b border-[#97B320] w-[10vw] md:w-16" />
             </div>
           </div>
-       
 
         </div>
       </div>
