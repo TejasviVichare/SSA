@@ -23,7 +23,7 @@ export default function Professionals() {
     <div className="w-full font-montserrat">
 
       
-      <div className="flex justify-center gap-[2vw] py-[1.5vw] text-[1.1vw] font-semibold text-[#7FBF45] uppercase tracking-[0.2vw]">
+      <div className="flex justify-between  gap-[2vw] py-[1.1vw] px-[0.3vw] md:text-[1.3vw] text-[1.2vw] font-semibold text-[#7FBF45] uppercase tracking-[0.2vw]">
         <span>Adopt</span>
         <span>Nurture</span>
         <span>Deliver</span>
@@ -33,7 +33,7 @@ export default function Professionals() {
 
    
       <section className="w-full px-[4vw] py-[6vw]">
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="grid grid-cols-2 md:grid-cols-2">
 
         
           <div className="bg-linear-to-r from-[#0f3d2e] to-[#9bbd3a] text-white px-[3vw] py-[3vw] rounded-t-[1vw] md:rounded-l-[1vw] md:rounded-tr-none flex flex-col justify-center">
@@ -59,7 +59,8 @@ export default function Professionals() {
           </div>
 
         
-          <div className="relative w-full h-full rounded-b-[1vw] md:rounded-r-[1vw] md:rounded-bl-none overflow-hidden">
+          <div className="relative w-full h-37.5 md:h-auto rounded-b-[1vw] md:rounded-r-[1vw] md:rounded-bl-none overflow-hidden">
+
             <Image
               src="/images/ground.jpg"
               alt="Academy Ground"
@@ -71,10 +72,10 @@ export default function Professionals() {
       </section>
 
       {/* PROFESSIONALS */}
-      <section className="w-full px-[4vw] py-[6vw]">
+      <section className="w-full  px-[4vw] py-[6vw]">
         <div className="flex justify-between items-start">
           <div>
-            <h2 className="text-[2vw] font-semibold leading-[2.4vw]">
+            <h2 className="md:text-[2vw]  font-semibold leading-[2.4vw] mb-[1vw]">
               Meet our professionals 
             </h2>
             <p className="text-gray-600 text-[1vw] max-w-[35vw] mt-[0.7vw] leading-[1.4vw]">
@@ -88,10 +89,10 @@ export default function Professionals() {
         </div>
 
         {/* PROFILES GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-[2vw] mt-[4vw]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-[2vw] mt-[4vw] sm:px-[4vw] ">
           {professionals.map((person, index) => (
             <div key={index}>
-              <div className="relative w-full h-[22vw] rounded-[1vw] overflow-hidden">
+              <div className="relative md:w-full w-48 h-[22vw] rounded-[1vw] overflow-hidden">
                 <Image
                   src={person.image}
                   alt={person.name}

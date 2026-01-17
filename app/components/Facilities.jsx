@@ -5,15 +5,15 @@ export default function Facilities() {
     <section className="w-full bg-white md:mb-[15vw]">
       {/* Facilities Section */}
       <div className="max-w-[90vw] mx-auto py-[5vw] ">
-        <h2 className="text-[3vw] md:text-[2vw] font-semibold">Facilities</h2>
+        <h2 className="text-[4vw] md:text-[2vw] font-semibold">Facilities</h2>
 
         <p className="text-gray-600 text-[1vw] max-w-[35vw] mt-[0.7vw] mb-[2vw]">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         </p>
 
-        <div className="flex md:flex-col flex-col gap-[3vw] bg-gradient-to-r from-[#0f3d2e] to-[#9bbd3a] mt-[10vw]">
+        <div className="flex md:flex-col flex-col gap-[3vw] bg-gradient-to-r from-[#0f3d2e] to-[#9bbd3a] md:mt-[10vw] mt-[5vw]">
         
-          <div className="flex md:flex-row flex-col gap-[3vw] -mt-[6vw] md:ml-[5vw] mb-[3vw]">
+          <div className="flex md:flex-row flex-col gap-[3vw] md:-mt-[6vw] md:ml-[5vw] mb-[3vw]">
             {/* Tennis Video */}
             <div className="rounded-[0.3vw] overflow-hidden text-white ">
               <video
